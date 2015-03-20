@@ -1,0 +1,24 @@
+{
+  "name": "NMAE",
+  "version": "0.0.0",
+  "description": "Academic example of a Node.JS Module implementation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cmpsoares91/NMAE.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Module",
+    "example"
+  ],
+  "author": "Carlos Soares, José Vaz, Nuno Salgado",
+  "license": "The MIT License (MIT) Copyright (c) 2015 Carlos Soares, José Vaz, Nuno Salgado",
+  "bugs": {
+    "url": "https://github.com/cmpsoares91/NMAE/issues"
+  },
+  "homepage": "https://github.com/cmpsoares91/NMAE"
+}
