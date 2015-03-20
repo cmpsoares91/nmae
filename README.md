@@ -3,9 +3,12 @@ Academic example of a Node.JS Module implementation
 
 ## Credits
 
-  See the [contributors](https://github.com/cmpsoares91/Node.js-Project-Setup/graphs/contributors).
+  See the [contributors](https://github.com/cmpsoares91/NMAE/graphs/contributors).
   
-  See also http://github.com/startup-class/dotfiles for more details.
+  Initial contributions where made for an academic presentation by:
+   - [Carlos Soares](https://github.com/cmpsoares91/)
+   - [José Vaz]()
+   - [Nuno Salgado]()
 
 ## License
 
@@ -33,4 +36,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 </pre>
 
-[![Analytics](https://ga-beacon.appspot.com/UA-50149210-1/Node.js-Project-Setup/README.md)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://ga-beacon.appspot.com/UA-61026805-1/GitHub/NMAE/README.md)](https://github.com/igrigorik/ga-beacon)
