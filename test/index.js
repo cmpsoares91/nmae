@@ -46,6 +46,6 @@ describe('#factorial', function() {
   });
   
   it('factorial of a negative number should equal give an exception;', function() {
-    expect(factorial(1)).to.throw('Ups! It\'s not possible to calculate the factorial of a negative number...');
+    expect(factorial(1)).to.throw('Ups! It\'s not possible to calculate the factorial of a non-integer or negative number...');
   });
 });
