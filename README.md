@@ -10,7 +10,9 @@ The purpose of the NMAE (Node.JS Module Academic Example) project is to serve as
    - [José Vaz]()
    - [Nuno Salgado]()
 
-### [References](https://github.com/cmpsoares91/NMAE/blob/master/REFERENCES.md)
+## References
+
+  See the [references](https://github.com/cmpsoares91/NMAE/blob/master/REFERENCES.md)
 
 ## License
 
