@@ -1,14 +1,16 @@
 # NMAE
-Academic example of a Node.JS Module implementation
+The purpose of the NMAE (Node.JS Module Academic Example) project is to serve as an Academic example of a Node.JS Module implementation, making it easier for those unfamiliarized to Node.JS to understand its syntax and paradigm.
 
 ## Credits
 
   See the [contributors](https://github.com/cmpsoares91/NMAE/graphs/contributors).
   
-  Initial contributions where made for an academic presentation by:
+  Initial contributions where made for an academic presentation, at [ISCTE-IUL](http://www.iscte-iul.pt/en/home.aspx), by:
    - [Carlos Soares](https://github.com/cmpsoares91/)
    - [José Vaz]()
    - [Nuno Salgado]()
+
+### [References](https://github.com/cmpsoares91/NMAE/blob/master/REFERENCES.md)
 
 ## License
 
