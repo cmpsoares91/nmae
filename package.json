@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/cmpsoares91/NMAE/issues"
   },
-  "homepage": "https://github.com/cmpsoares91/NMAE"
+  "homepage": "https://github.com/cmpsoares91/NMAE",
+  "devDependencies": {
+    "chai": "^2.1.2",
+    "mocha": "^2.2.1"
+  }
 }
