@@ -15,8 +15,14 @@
     "Module",
     "example"
   ],
-  "author": "Carlos Soares, José Vaz, Nuno Salgado",
-  "license": "The MIT License (MIT) Copyright (c) 2015 Carlos Soares, José Vaz, Nuno Salgado",
+  "author": {"Carlos Soares",
+             "José Vaz",
+             "Nuno Salgado"
+            },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/cmpsoares91/NMAE/blob/master/LICENSE.md"
+  },
   "bugs": {
     "url": "https://github.com/cmpsoares91/NMAE/issues"
   },
