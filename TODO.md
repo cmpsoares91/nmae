@@ -8,7 +8,7 @@
  - [X] Configure .gitignore to ignore all external modules (modules/);
  - [X] Write simple Node.JS Module;
  - [X] Write Q&A Test Script;
- - [ ] Write Factorial Function (Object Oriented and Recursive);
+ - [X] Write Factorial Function (Object Oriented and Recursive);
  - [ ] Test module using Chai and Mocha modules;
  - [ ] Publish module;
  - [X] Creating separate License file to reference to it;
