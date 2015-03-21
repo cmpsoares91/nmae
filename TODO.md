@@ -18,4 +18,6 @@
  - [ ] Write tutorial;
  - [ ] Write blog post;
 
+
+---------------------------------------
 *To-do list inspiration:* [How to Turn GitHub into a To-Do List](http://lifehacker.com/why-a-github-gist-is-my-favorite-to-do-list-1493063613)
