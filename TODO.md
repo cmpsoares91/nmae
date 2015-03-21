@@ -21,3 +21,5 @@
 
 ---------------------------------------
 *To-do list inspiration:* [How to Turn GitHub into a To-Do List](http://lifehacker.com/why-a-github-gist-is-my-favorite-to-do-list-1493063613)
+
+[![Analytics](https://ga-beacon.appspot.com/UA-61026805-1/GitHub/NMAE/TODO.md)](https://github.com/igrigorik/ga-beacon)
