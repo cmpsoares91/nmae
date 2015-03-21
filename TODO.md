@@ -12,6 +12,7 @@
  - [ ] Test module using Chai and Mocha modules;
  - [ ] Publish module;
  - [X] Creating separate License file to reference to it;
+ - [X] Creating a file for project references;
  
 ## Next:
  - [ ] Write documentation;
