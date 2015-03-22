@@ -1,13 +1,14 @@
-// TODO: Create recursive factorial function demonstrating JavaScript Object Orientated programming.
 // Constructor:
 function fact(number){
   this.number = number
 }
+// Method:
 fact.prototype.calculate = function(){
-  if number == 0:
+  if (this.number == 0)
     return 1;
-  else:
-    return (number*fact(number-1).calculate())
+  else
+    
+    return (this.number*(new fact(this.number-1)).calculate())
 }
 
 module.exports = {
@@ -20,72 +21,57 @@ module.exports = {
   helloString: function(nome){
     if (nome == null) {return 'Hello World!'}
     return 'Hello ' + nome + '!'
-  }
+  },
   
   /**
    * Simple example sum function for element in array.
    *
    * @param  {array} arr
-   * @return {double} sum
+   * @return {double} result
    */
   sum: function(arr){
-    sum = 0.0
+    var result = 0.0
 
-    if(len(arr) >= 1) {
-      for i in arr:
-        sum += i
+    if(arr.length >= 1) {
+      for(var i = 0; i < arr.length; i++){
+        result += arr[i]
+      }
     }
-    return sum
-  }
+    return result
+  },
  
   /**
-   * Simple example sum function for element in array.
+   * Simple example product function for element in array.
    *
    * @param  {array} arr
    * @return {double} prod
    */
   product: function(arr){
-    prod = 0.0
+    prod = 1.0
 
-    if(len(arr) >= 1) {
-      for i in arr:
-        sum += i
+    if(arr.length >= 1) {
+      for(var i = 0; i < arr.length; i++){
+        prod *= arr[i]
+      }
     }
     return prod
-  }
-  
+  },
+
   /**
-   * Simple example sum function for element in array.
-   *
-   * @param  {array} arr
-   * @return {double} prod
-   */
-  product: function(arr){
-    prod = 0.0
-
-    if(len(arr) >= 1) {
-      for i in arr:
-        sum += i
-    }
-    return prod
-  }
-  
-    /**
    * Simple example sum function for element in array.
    *
    * @param  {array} arr
    * @return {double} prod
    */
   factorial: function(num){
-    result = 0
+    var result = 0
     
-    if (data === parseInt(data, 10) && not(num < 0)){
-      temp = fact(num)
-      result = fact.calculate()
+    if (num === parseInt(num, 10) && !(num < 0)){
+      var fact1 = new fact(num)
+      result = fact1.calculate()
       return result
     }
-    throw('Ups! It\'s not possible to calculate the factorial of a non-integer or negative number...')
-    
+    throw new Error('Ups! It\'s not possible to calculate the factorial of a non-integer or negative number...');
     
   }
   
