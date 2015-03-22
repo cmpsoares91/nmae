@@ -1,5 +1,6 @@
 # NMAE
 [![Code Climate](https://codeclimate.com/github/cmpsoares91/NMAE/badges/gpa.svg)](https://codeclimate.com/github/cmpsoares91/NMAE) [![Test Coverage](https://codeclimate.com/github/cmpsoares91/NMAE/badges/coverage.svg)](https://codeclimate.com/github/cmpsoares91/NMAE)
+
 The purpose of the NMAE (Node.JS Module Academic Example) project is to serve as an Academic example of a Node.JS Module implementation, making it easier for those unfamiliarized to Node.JS to understand its syntax and paradigm.
 
 ## Credits
