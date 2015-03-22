@@ -1,4 +1,5 @@
-# License
+# [License](https://github.com/cmpsoares91/NMAE/blob/master/LICENSE.md)
+### Source Code
 <pre>
 The MIT License (MIT)
 
@@ -23,4 +24,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 </pre>
 
-[![Analytics](https://ga-beacon.appspot.com/UA-61026805-1/GitHub/NMAE/LICENSE.md)](https://github.com/igrigorik/ga-beacon)
+### Documentation
+><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">NMAE</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/cmpsoares91/NMAE" property="cc:attributionName" rel="cc:attributionURL">Carlos Soares, José Vaz & Nuno Salgado</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Atribuição-Uso Não-Comercial 4.0 Internacional License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/cmpsoares91/NMAE" rel="dct:source">https://github.com/cmpsoares91/NMAE</a>.<br />Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/cmpsoares91/NMAE/blob/master/LICENSE.md" rel="cc:morePermissions">https://github.com/cmpsoares91/NMAE/blob/master/LICENSE.md</a>.
