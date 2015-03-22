@@ -15,7 +15,8 @@
     "Module",
     "example"
   ],
-  "author": {"Carlos Soares",
+  "author": {
+             "Carlos Soares <cmpsoares91@gmail.com> (https://github.com/cmpsoares91)",
              "José Vaz",
              "Nuno Salgado"
             },

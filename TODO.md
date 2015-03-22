@@ -9,12 +9,14 @@
  - [X] Write simple Node.JS Module;
  - [X] Write Q&A Test Script;
  - [X] Write Factorial Function (Object Oriented and Recursive);
+ - [ ] Add descriptive comments;
  - [ ] Test module using Chai and Mocha modules;
  - [ ] Publish module;
  - [X] Creating separate License file to reference to it;
  - [X] Creating a file for project references;
  
 ## Next:
+ - [ ] Add code coverage (codeclimate.com);
  - [ ] Write documentation;
  - [ ] Write tutorial;
  - [ ] Write blog post;
