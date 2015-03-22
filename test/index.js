@@ -4,7 +4,7 @@ var = should      = require('chai').should(),
       helloString = nmae.helloString,
       sum         = nmae.sum,
       product     = nmae.product,
-      //factorial = nmae.factorial,
+      factorial = nmae.factorial,
       arr1 = [0,1,2,3,4,5,6,7,8,9],  // sum: 45, product: 0
       arr2 = [1,2,3,4,5,6,7,8,9,10]; // sum: 55, product: 3628800, 
       
