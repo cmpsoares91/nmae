@@ -1,6 +1,6 @@
 {
   "name": "nmae",
-  "version": "0.1.2",
+  "version": "0.1.1",
   "description": "Academic example of a Node.JS Module implementation.",
   "main": "index.js",
   "scripts": {
