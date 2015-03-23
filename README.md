@@ -7,6 +7,12 @@ This module can also be used as a starter framework/example for those wanting to
 
 Resulting module package from this project is already published at [npmjs.com(NMAE)](https://www.npmjs.com/package/nmae).
 
+## Release History
+
+* 0.1.2 Patch to fix npm publication
+* 0.1.1 Readme patch
+* 0.1.0 Initial release
+
 ## Credits
 
   See the [contributors](https://github.com/cmpsoares91/NMAE/graphs/contributors).
