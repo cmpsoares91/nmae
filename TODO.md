@@ -1,4 +1,11 @@
 # To do:
+## V0.1.x
+ - [ ] Add code coverage (codeclimate.com);
+ - [ ] Write documentation;
+ - [ ] Write tutorial;
+ - [ ] Add descriptive comments;
+
+
 ## V0.0.1:
  - [X] Initiate Node.JS project;
  - [X] Create git and GitHub repository (Open-Source);
@@ -9,16 +16,12 @@
  - [X] Write simple Node.JS Module;
  - [X] Write Q&A Test Script;
  - [X] Write Factorial Function (Object Oriented and Recursive);
- - [ ] Add descriptive comments;
- - [ ] Test module using Chai and Mocha modules;
- - [ ] Publish module;
+ - [X] Test module using Chai and Mocha modules;
+ - [X] Publish module;
  - [X] Creating separate License file to reference to it;
  - [X] Creating a file for project references;
  
 ## Next:
- - [ ] Add code coverage (codeclimate.com);
- - [ ] Write documentation;
- - [ ] Write tutorial;
  - [ ] Write blog post;
 
 
