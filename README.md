@@ -2,6 +2,9 @@
 [![GitHub version](https://badge.fury.io/gh/cmpsoares91%2Fnmae.svg)](http://badge.fury.io/gh/cmpsoares91%2Fnmae) [![npm version](https://badge.fury.io/js/nmae.svg)](http://badge.fury.io/js/nmae) [![Code Climate](https://codeclimate.com/github/cmpsoares91/NMAE/badges/gpa.svg)](https://codeclimate.com/github/cmpsoares91/NMAE) [![Test Coverage](https://codeclimate.com/github/cmpsoares91/NMAE/badges/coverage.svg)](https://codeclimate.com/github/cmpsoares91/NMAE)
 
 The purpose of the NMAE (Node.JS Module Academic Example) project is to serve as an Academic example of a Node.JS Module implementation, making it easier for those unfamiliarized to Node.JS to understand its syntax and paradigm.
+This module can also be used as a starter framework/example for those wanting to create a Node.JS module and publish it at [npmjs.com](https://www.npmjs.com/).
+
+Resulting module package from this project is already published at [npmjs.com(NMAE)](https://www.npmjs.com/package/nmae).
 
 ## Credits
 
