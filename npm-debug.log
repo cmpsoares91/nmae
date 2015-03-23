@@ -1,0 +1,152 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish',
+1 verbose cli   'nmae@0.1.1' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose publish [ 'nmae@0.1.1' ]
+6 silly cache add args [ 'nmae@0.1.1', null ]
+7 verbose cache add spec nmae@0.1.1
+8 silly cache add parsed spec { raw: 'nmae@0.1.1',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'nmae',
+8 silly cache add   rawSpec: '0.1.1',
+8 silly cache add   spec: '0.1.1',
+8 silly cache add   type: 'version' }
+9 verbose addNamed nmae@0.1.1
+10 silly addNamed semver.valid 0.1.1
+11 silly addNamed semver.validRange 0.1.1
+12 silly mapToRegistry name nmae
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/nmae
+16 verbose addNameVersion registry:https://registry.npmjs.org/nmae not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/nmae
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 03:59:31
+20 verbose request id 49f2a6803924ff8b
+21 http request GET https://registry.npmjs.org/nmae
+22 http 200 https://registry.npmjs.org/nmae
+23 silly get cb [ 200,
+23 silly get   { date: 'Mon, 23 Mar 2015 03:59:35 GMT',
+23 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+23 silly get     etag: '"9F5NM02FA17VHL0CJZM81AULQ"',
+23 silly get     'content-type': 'application/json',
+23 silly get     'cache-control': 'max-age=60',
+23 silly get     'content-length': '7091',
+23 silly get     'accept-ranges': 'bytes',
+23 silly get     via: '1.1 varnish',
+23 silly get     age: '0',
+23 silly get     'x-served-by': 'cache-lhr6330-LHR',
+23 silly get     'x-cache': 'MISS',
+23 silly get     'x-cache-hits': '0',
+23 silly get     'x-timer': 'S1427083175.076794,VS0,VE621',
+23 silly get     vary: 'Accept',
+23 silly get     'keep-alive': 'timeout=10, max=50',
+23 silly get     connection: 'Keep-Alive' } ]
+24 verbose get saving nmae to C:\Users\Utilizador\AppData\Roaming\npm-cache\registry.npmjs.org\nmae\.cache.json
+25 silly mapToRegistry name nmae
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/nmae
+29 verbose addRemoteTarball https://registry.npmjs.org/nmae/-/nmae-0.1.1.tgz not in flight; adding
+30 verbose addRemoteTarball [ 'https://registry.npmjs.org/nmae/-/nmae-0.1.1.tgz',
+30 verbose addRemoteTarball   '61e4bcae010a110e846434c7b80de93b8427504c' ]
+31 info retry fetch attempt 1 at 03:59:32
+32 info attempt registry request try #1 at 03:59:32
+33 http fetch GET https://registry.npmjs.org/nmae/-/nmae-0.1.1.tgz
+34 http fetch 200 https://registry.npmjs.org/nmae/-/nmae-0.1.1.tgz
+35 silly fetchAndShaCheck shasum 61e4bcae010a110e846434c7b80de93b8427504c
+36 verbose addTmpTarball C:\Users\UTILIZ~1\AppData\Local\Temp\npm-1684-05078c23\registry.npmjs.org\nmae\-\nmae-0.1.1.tgz not in flight; adding
+37 verbose addTmpTarball already have metadata; skipping unpack for nmae@0.1.1
+38 silly cache afterAdd nmae@0.1.1
+39 verbose afterAdd C:\Users\Utilizador\AppData\Roaming\npm-cache\nmae\0.1.1\package\package.json not in flight; writing
+40 verbose afterAdd C:\Users\Utilizador\AppData\Roaming\npm-cache\nmae\0.1.1\package\package.json written
+41 silly publish { name: 'nmae',
+41 silly publish   version: '0.1.1',
+41 silly publish   description: 'Academic example of a Node.JS Module implementation.',
+41 silly publish   main: 'index.js',
+41 silly publish   scripts: { test: 'make test' },
+41 silly publish   repository: { type: 'git', url: 'https://github.com/cmpsoares91/NMAE.git' },
+41 silly publish   keywords: [ 'Node.js', 'Module', 'example' ],
+41 silly publish   author:
+41 silly publish    { name: 'Carlos Soares',
+41 silly publish      email: 'cmpsoares91@gmail.com',
+41 silly publish      url: 'https://github.com/cmpsoares91' },
+41 silly publish   contributors:
+41 silly publish    [ { name: 'José Vaz', url: 'https://github.com/JoseVaz' },
+41 silly publish      { name: 'Nuno Salgado', url: 'https://github.com/ncsalgado' } ],
+41 silly publish   license:
+41 silly publish    { type: 'MIT',
+41 silly publish      url: 'https://github.com/cmpsoares91/NMAE/blob/master/LICENSE.md' },
+41 silly publish   bugs: { url: 'https://github.com/cmpsoares91/NMAE/issues' },
+41 silly publish   homepage: 'https://github.com/cmpsoares91/NMAE',
+41 silly publish   devDependencies: { chai: '^2.1.2', mocha: '^2.2.1' },
+41 silly publish   gitHead: '370f8d2b13b8966f36758cd40fc6ca1e663f4d55',
+41 silly publish   _id: 'nmae@0.1.1',
+41 silly publish   _shasum: '61e4bcae010a110e846434c7b80de93b8427504c',
+41 silly publish   _from: 'nmae@0.1.1',
+41 silly publish   _npmVersion: '1.4.14',
+41 silly publish   _npmUser: { name: 'cmpsoares91', email: 'cmpsoares91@gmail.com' },
+41 silly publish   maintainers: [ { name: 'cmpsoares91', email: 'cmpsoares91@gmail.com' } ],
+41 silly publish   dist:
+41 silly publish    { shasum: '61e4bcae010a110e846434c7b80de93b8427504c',
+41 silly publish      tarball: 'http://registry.npmjs.org/nmae/-/nmae-0.1.1.tgz' },
+41 silly publish   directories: {},
+41 silly publish   _resolved: 'https://registry.npmjs.org/nmae/-/nmae-0.1.1.tgz' }
+42 info prepublish nmae@0.1.1
+43 silly mapToRegistry name nmae
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry uri https://registry.npmjs.org/nmae
+47 verbose publish registryBase https://registry.npmjs.org/
+48 silly publish uploading C:\Users\Utilizador\AppData\Roaming\npm-cache\nmae\0.1.1\package.tgz
+49 verbose request uri https://registry.npmjs.org/nmae
+50 verbose request sending authorization for write operation
+51 info attempt registry request try #1 at 03:59:32
+52 http request PUT https://registry.npmjs.org/nmae
+53 http 403 https://registry.npmjs.org/nmae
+54 verbose headers { date: 'Mon, 23 Mar 2015 03:59:36 GMT',
+54 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+54 verbose headers   'content-type': 'application/json',
+54 verbose headers   'cache-control': 'max-age=60',
+54 verbose headers   'content-length': '2854',
+54 verbose headers   'accept-ranges': 'bytes',
+54 verbose headers   via: '1.1 varnish',
+54 verbose headers   'x-served-by': 'cache-lhr6324-LHR',
+54 verbose headers   'x-cache': 'MISS',
+54 verbose headers   'x-cache-hits': '0',
+54 verbose headers   'x-timer': 'S1427083176.225770,VS0,VE592',
+54 verbose headers   'keep-alive': 'timeout=10, max=50',
+54 verbose headers   connection: 'Keep-Alive' }
+55 verbose request invalidating C:\Users\Utilizador\AppData\Roaming\npm-cache\registry.npmjs.org\nmae on PUT
+56 error publish Failed PUT 403
+57 verbose stack Error: forbidden cannot modify pre-existing version: 0.1.1
+57 verbose stack old={"name":"nmae","version":"0.1.1","description":"Academic example of a Node.JS Module implementation.","main":"index.js","scripts":{"test":"make test"},"repository":{"type":"git","url":"https://github.com/cmpsoares91/NMAE.git"},"keywords":["Node.js","Module","example"],"author":{"name":"Carlos Soares","email":"cmpsoares91@gmail.com","url":"https://github.com/cmpsoares91"},"contributors":[{"name":"José Vaz","url":"https://github.com/JoseVaz"},{"name":"Nuno Salgado","url":"https://github.com/ncsalgado"}],"license":{"type":"MIT","url":"https://github.com/cmpsoares91/NMAE/blob/master/LICENSE.md"},"bugs":{"url":"https://github.com/cmpsoares91/NMAE/issues"},"homepage":"https://github.com/cmpsoares91/NMAE","devDependencies":{"chai":"^2.1.2","mocha":"^2.2.1"},"gitHead":"370f8d2b13b8966f36758cd40fc6ca1e663f4d55","_id":"nmae@0.1.1","_shasum":"61e4bcae010a110e846434c7b80de93b8427504c","_from":".","_npmVersion":"1.4.14","_npmUser":{"name":"cmpsoares91","email":"cmpsoares91@gmail.com"},"maintainers":[{"name":"cmpsoares91","email":"cmpsoares91@gmail.com"}],"dist":{"shasum":"61e4bcae010a110e846434c7b80de93b8427504c","tarball":"http://registry.npmjs.org/nmae/-/nmae-0.1.1.tgz"}}
+57 verbose stack new={"name":"nmae","version":"0.1.1","description":"Academic example of a Node.JS Module implementation.","main":"index.js","scripts":{"test":"make test"},"repository":{"type":"git","url":"https://github.com/cmpsoares91/NMAE.git"},"keywords":["Node.js","Module","example"],"author":{"name":"Carlos Soares","email":"cmpsoares91@gmail.com","url":"https://github.com/cmpsoares91"},"contributors":[{"name":"José Vaz","url":"https://github.com/JoseVaz"},{"name":"Nuno Salgado","url":"https://github.com/ncsalgado"}],"license":{"type":"MIT","url":"https://github.com/cmpsoares91/NMAE/blob/master/LICENSE.md"},"bugs":{"url":"https://github.com/cmpsoares91/NMAE/issues"},"homepage":"https://github.com/cmpsoares91/NMAE","devDependencies":{"chai":"^2.1.2","mocha":"^2.2.1"},"gitHead":"370f8d2b13b8966f36758cd40fc6ca1e663f4d55","_id":"nmae@0.1.1","_shasum":"61e4bcae010a110e846434c7b80de93b8427504c","_from":"nmae@0.1.1","_npmVersion":"2.5.1","_npmUser":{"name":"cmpsoares91","email":"cmpsoares91@gmail.com"},"maintainers":[{"name":"cmpsoares91","email":"cmpsoares91@gmail.com"}],"dist":{"shasum":"61e4bcae010a110e846434c7b80de93b8427504c","tarball":"http://registry.npmjs.org/nmae/-/nmae-0.1.1.tgz"},"_resolved":"https://registry.npmjs.org/nmae/-/nmae-0.1.1.tgz","_nodeVersion":"0.12.0"}: nmae
+57 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:254:14)
+57 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:178:14)
+57 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:344:22)
+57 verbose stack     at Request.emit (events.js:110:17)
+57 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1239:14)
+57 verbose stack     at Request.emit (events.js:129:20)
+57 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1187:12)
+57 verbose stack     at IncomingMessage.emit (events.js:129:20)
+57 verbose stack     at _stream_readable.js:908:16
+57 verbose stack     at process._tickCallback (node.js:355:11)
+58 verbose statusCode 403
+59 verbose pkgid nmae
+60 verbose cwd D:\Dropbox\ISCTE-IUL\MEI-SIGC\2º Semestre\Tecnologias para Sistema de Informação Operacionais\Trabalho\NMAE
+61 error Windows_NT 6.3.9600
+62 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "nmae@0.1.1"
+63 error node v0.12.0
+64 error npm  v2.5.1
+65 error code E403
+66 error forbidden cannot modify pre-existing version: 0.1.1
+66 error old={"name":"nmae","version":"0.1.1","description":"Academic example of a Node.JS Module implementation.","main":"index.js","scripts":{"test":"make test"},"repository":{"type":"git","url":"https://github.com/cmpsoares91/NMAE.git"},"keywords":["Node.js","Module","example"],"author":{"name":"Carlos Soares","email":"cmpsoares91@gmail.com","url":"https://github.com/cmpsoares91"},"contributors":[{"name":"José Vaz","url":"https://github.com/JoseVaz"},{"name":"Nuno Salgado","url":"https://github.com/ncsalgado"}],"license":{"type":"MIT","url":"https://github.com/cmpsoares91/NMAE/blob/master/LICENSE.md"},"bugs":{"url":"https://github.com/cmpsoares91/NMAE/issues"},"homepage":"https://github.com/cmpsoares91/NMAE","devDependencies":{"chai":"^2.1.2","mocha":"^2.2.1"},"gitHead":"370f8d2b13b8966f36758cd40fc6ca1e663f4d55","_id":"nmae@0.1.1","_shasum":"61e4bcae010a110e846434c7b80de93b8427504c","_from":".","_npmVersion":"1.4.14","_npmUser":{"name":"cmpsoares91","email":"cmpsoares91@gmail.com"},"maintainers":[{"name":"cmpsoares91","email":"cmpsoares91@gmail.com"}],"dist":{"shasum":"61e4bcae010a110e846434c7b80de93b8427504c","tarball":"http://registry.npmjs.org/nmae/-/nmae-0.1.1.tgz"}}
+66 error new={"name":"nmae","version":"0.1.1","description":"Academic example of a Node.JS Module implementation.","main":"index.js","scripts":{"test":"make test"},"repository":{"type":"git","url":"https://github.com/cmpsoares91/NMAE.git"},"keywords":["Node.js","Module","example"],"author":{"name":"Carlos Soares","email":"cmpsoares91@gmail.com","url":"https://github.com/cmpsoares91"},"contributors":[{"name":"José Vaz","url":"https://github.com/JoseVaz"},{"name":"Nuno Salgado","url":"https://github.com/ncsalgado"}],"license":{"type":"MIT","url":"https://github.com/cmpsoares91/NMAE/blob/master/LICENSE.md"},"bugs":{"url":"https://github.com/cmpsoares91/NMAE/issues"},"homepage":"https://github.com/cmpsoares91/NMAE","devDependencies":{"chai":"^2.1.2","mocha":"^2.2.1"},"gitHead":"370f8d2b13b8966f36758cd40fc6ca1e663f4d55","_id":"nmae@0.1.1","_shasum":"61e4bcae010a110e846434c7b80de93b8427504c","_from":"nmae@0.1.1","_npmVersion":"2.5.1","_npmUser":{"name":"cmpsoares91","email":"cmpsoares91@gmail.com"},"maintainers":[{"name":"cmpsoares91","email":"cmpsoares91@gmail.com"}],"dist":{"shasum":"61e4bcae010a110e846434c7b80de93b8427504c","tarball":"http://registry.npmjs.org/nmae/-/nmae-0.1.1.tgz"},"_resolved":"https://registry.npmjs.org/nmae/-/nmae-0.1.1.tgz","_nodeVersion":"0.12.0"}: nmae
+67 error If you need help, you may report this error at:
+67 error     <http://github.com/npm/npm/issues>
+68 verbose exit [ 1, true ]
