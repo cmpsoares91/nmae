@@ -1,7 +1,7 @@
 # To do:
-## V0.1.x
- - [ ] Add code coverage (codeclimate.com);
- - [ ] Write documentation;
+## V0.1.x:
+ - [X] Add code coverage (codeclimate.com);
+ - [ ] Write API documentation;
  - [ ] Write tutorial;
  - [ ] Add descriptive comments;
 
