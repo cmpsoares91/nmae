@@ -16,7 +16,7 @@ Resulting module package from this project is already published at [npmjs.com(NM
 ## Credits
 
   See the [contributors](https://github.com/cmpsoares91/NMAE/graphs/contributors).
-  
+
   Initial contributions where made for an academic presentation, at [ISCTE-IUL](http://www.iscte-iul.pt/en/home.aspx), by:
    - [Carlos Soares](https://github.com/cmpsoares91/)
    - [José Vaz](https://github.com/JoseVaz)
